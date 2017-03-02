@@ -49,6 +49,10 @@ open class AccessibilityHelper {
     }
     
   }
+  
+  open func isAXProcessTrusted() -> (Bool) {
+    return AXIsProcessTrustedWithOptions(nil)
+  }
 }
 
 
